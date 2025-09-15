@@ -1,5 +1,4 @@
-import java.util.Scanner;
-
+import java.util.Scanner; 
 public class Main {
     // My name is Isa and my major is Applied Math with minors in Data Science and Business
     public static void main(String[] args) {
