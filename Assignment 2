@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class Main {
+    // My name is Isa and my major is Applied Math with minors in Data Science and Business
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); // define the scanner
+        int score = 0; // initiate a variable for score - make sure it has a value of 0
+
+        // First Question 
+        System.out.println("How many dogs have I had?");
+        int dogs = sc.nextInt(); // takes the answer and stores it
+        sc.nextLine(); // waits for the user to type something
+        if (dogs == 3) {
+            score++; // increases the variable named "score" by 1
+        } else {
+            // nothing happens, the score stays at 0
+        }
+
+        // Second question
+        System.out.println("What state did I grow up in?");
+        String state = sc.nextLine(); // takes the answer and stores it
+        if (state.equals("New York")) { // checks if the input matches the real answer
+            score++; // increases the variable named "score" by 1
+        } else {
+            // the score stays the same as it was
+        }
+
+        // Third Question
+        System.out.println("Where is my family from?");
+        String family = sc.nextLine(); // takes the answer and stores it
+        if (family.equals("Puerto Rico")) { // checks if the input matches the real answer
+            score++; // increases the variable named "score" by 1
+        } else {
+            // the score stays the same as it was
+        }
+
+        // Final score
+        System.out.println("Final Score: " + score); // Outputs the final score
+
+        sc.close(); // closes the scanner - tells java that we are done with inputs
+    }
+}
