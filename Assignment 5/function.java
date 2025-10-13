@@ -5,6 +5,7 @@ please go a little more complex than just simple math/simple printing for the fu
 feel free to google some inspiration though :)
 */
 
+// Check if a number is prime
 public class Main {
     public static void main(String[] args) {
         Prime(10); 
