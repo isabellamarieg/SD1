@@ -45,8 +45,8 @@ public class App {
         cases.set(Yourcase - 1, null); 
 
         // Round 1: pick 6 cases
+        System.out.println("You must choose 6 cases.");
         for (int i = 0; i < 6; i++) {
-            System.out.println("You must choose 6 cases.");
             Integer FirstRound;
             Double value;
 
@@ -86,8 +86,8 @@ public class App {
             System.out.println("Your original case had $" + YourCase);
         } else {
             // Round 2: pick 5 cases
+            System.out.println("You must choose 5 cases.");
             for (int i = 0; i < 5; i++) {
-                System.out.println("You must choose 5 cases.");
                 Integer SecondRound;
                 Double value;
 
@@ -120,8 +120,8 @@ public class App {
                 System.out.println("Your original case had $" + YourCase);
             } else {
                 // Round 3: pick 4 cases
+                System.out.println("You must choose 4 cases.");
                 for (int i = 0; i < 4; i++) {
-                    System.out.println("You must choose 4 cases.");
                     Integer ThirdRound;
                     Double value;
 
@@ -154,8 +154,8 @@ public class App {
                     System.out.println("Your original case had $" + YourCase);
                 } else {
                     // Round 4: pick 3 cases
+                    System.out.println("You must choose 3 cases.");
                     for (int i = 0; i < 3; i++) {
-                        System.out.println("You must choose 3 cases.");
                         Integer FourthRound;
                         Double value;
 
@@ -188,8 +188,8 @@ public class App {
                         System.out.println("Your original case had $" + YourCase);
                     } else {
                         // Round 5: pick 2 cases
+                        System.out.println("You must choose 2 cases.");
                         for (int i = 0; i < 2; i++) {
-                            System.out.println("You must choose 2 cases.");
                             Integer FifthRound;
                             Double value;
 
