@@ -37,8 +37,13 @@ public class App {
         cases.add(750.0);
         cases.add(1000000.0);
 
+        // Explain the game to the user
+        System.out.println("There are 26 cases you can choose from, each containing different values."); 
+        System.out.println("Select a case by entering the number of the case you want to pick.(1-26)"); 
+
         // This part allows the user to pick their initial case that will be stored until the end
         Scanner sc = new Scanner(System.in);
+        System.out.println("First you must pick your own case."); 
         System.out.println("Choose your case number:"); 
         Integer Yourcase = sc.nextInt();
         Double YourCase = cases.get(Yourcase - 1); 
